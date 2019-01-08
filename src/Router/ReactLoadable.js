@@ -6,6 +6,11 @@ export const Error = Loadable({
     loading: Loading,
 });
 
+export const MeetupAuth = Loadable({
+    loader: () => import('../Component/MeetupAuth'),
+    loading: Loading,
+});
+
 export const FourSquareAuth = Loadable({
     loader: () => import('../Component/FourSquareAuth'),
     loading: Loading,
